@@ -1,0 +1,8 @@
+identifiant;vulnerabilite;cvss;severite;priorite;role_traitement;statut
+OBS-003;Injection SQL module sqli (CWE-89);9.8;Critique;1;Developpement (requetes preparees);confirme
+OBS-006;Reseau local - MITM (ARP spoofing + DNS spoofing + HTTP en clair);8.1;Haute;2;DSI (reseau, TLS, DNSSEC);confirme
+OBS-007;Disponibilite - DoS applicatif (saturation des workers);7.5;Haute;3;DSI (architecture, WAF, dimensionnement);confirme
+OBS-004;XSS reflechie, stockee et DOM (CWE-79) + vol de session + CSRF guestbook;6.1;Moyenne;4;Developpement (echappement, HttpOnly, CSP);confirme
+OBS-005;Surface humaine - spear phishing (4 URL empoisonnees dont homoglyphe);N/A;Moyenne;5;RSSI / DSI;confirme
+OBS-001;Cadrage initial de l'audit (application dvwa-cible);N/A;Information;6;Pentester;termine
+OBS-002;Faux rançongiciel simule (exercice SOC);N/A;Pedagogique;7;Analyste SOC;ferme

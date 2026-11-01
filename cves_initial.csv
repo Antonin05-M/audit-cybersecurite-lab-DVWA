@@ -1,0 +1,8 @@
+identifiant;composant;gravite;role_traitement;statut
+OBS-001;application dvwa-cible;a_evaluer;Pentester_decouverte;ouvert
+OBS-002;faux ransomware simulé;pedagogique;Analyste SOC;ferme
+OBS-003;injection SQL module sqli (CWE-89);critique;Pentester;ouvert
+OBS-004,2026-10-29,10.40.0.10,"Modules XSS (xss_r/xss_s/xss_d)","XSS réfléchie, stockée et DOM confirmées en low ; vol de cookie démontré (PHPSESSID sans HttpOnly) ; formulaire guestbook sans jeton anti-CSRF",CWE-79,High,"Échappement des sorties selon le contexte ; HttpOnly ; CSP script-src 'self' ; jetons CSRF",À traiter
+OBS-005;Surface humaine - spear phishing (courriel formateur, 4 URL empoisonnees dont homographe xn--code-un-mx-8bb.fr);High;RSSI / DSI;A traiter
+OBS-006;Reseau local - MITM (ARP spoofing passerelle + DNS spoofing + interception HTTP en clair);High;DSI (reseau, TLS et DNSSEC);A traiter
+OBS-007;Disponibilite - DoS applicatif (saturation des workers par connexions captives; garde mod_reqtimeout efficace par requete mais depassee par la souscription soutenue);High;DSI (architecture, WAF et dimensionnement);A traiter

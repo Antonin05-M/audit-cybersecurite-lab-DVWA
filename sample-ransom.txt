@@ -1,0 +1,3 @@
+ext=.codemaxlocked
+note=Vos fichiers ont ete chiffres. Payez pour recuperer la cle.
+contact=pay@codemax-ransom.example

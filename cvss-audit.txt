@@ -1,0 +1,20 @@
+Vecteurs CVSS v3.1 (base) et justifications - Audit Code un max
+
+OBS-003 - Injection SQL (CWE-89)
+Vecteur : AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Score : 9.8 (Critique)
+Justification : exploitable a distance via le parametre GET id ; aucun privilege ni interaction requis ; l'injection UNION donne une lecture complete de la base (C:H), et les droits etendus du compte SQL rendent des modifications plausibles (I:H).
+
+OBS-006 - MITM reseau local (ARP + DNS spoofing)
+Vecteur : AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H - Score : 8.1 (Haute)
+Justification : attaque de proximite sur le reseau local ; trafic HTTP en clair, pas d'interaction utilisateur ; lecture (C:H) et falsification (I:H) de tous les echanges non chiffres.
+
+OBS-007 - DoS applicatif (saturation des workers)
+Vecteur : AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H - Score : 7.5 (Haute)
+Justification : attaquable a distance sans privilege ni interaction ; seule la disponibilite est touchee ; mesure : ~172 connexions captives en 5 s (~100 Ko/s) suffisent a paralyser la plateforme.
+
+OBS-004 - XSS (CWE-79) + vol de session + CSRF
+Vecteur : AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N - Score : 6.1 (Moyenne)
+Justification : interaction requise (clic sur lien piege) ; changement de contexte navigateur (S:C) ; impact en principe limite mais aggrave en pratique par l'absence de HttpOnly (detournement de session).
+
+OBS-005 - Spear phishing (risque organisationnel)
+Non note CVSS : vulnerabilite humaine, non technique. Priorite 5, severite Moyenne selon la matrice du plan d'action.

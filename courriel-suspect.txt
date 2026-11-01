@@ -1,0 +1,25 @@
+De : "Service Informatique - Code un max" <support@code-un-max-fr.verif-compte.net>
+Objet : [Code un max] Alerte securite : connexion suspecte sur votre compte formateur
+Date : jeudi 29 octobre, 07:12
+
+Bonjour cher fromateur,
+
+Notre systeme de supervision a detecte a 06h42 une tentative de connexion
+a votre compte formateur Code un max depuis une adresse IP inconnue
+(Belgique). Pour proteger vos evaluations et les notes de vos eleves,
+l'acces au portail sera suspendu sous 24 heures si votre identite n'est
+pas confirmee.
+
+Merci de verifier votre compte des maintenant :
+https://code-un-max.fr.session-login.ru/connexion
+
+Si le lien ne s'affiche pas, utilisez la porte de secours :
+https://code-un-max.fr@phishing-serveur.net/connexion
+
+Votre reference de dossier : CUM-2026-4512.
+
+Le service informatique de Code un max
+---
+P.S. : apres confirmation, consultez la nouvelle charte de notation :
+https://xn--code-un-mx-8bb.fr/connexion
+et son miroir : https://code-un-nax.fr/connexion
